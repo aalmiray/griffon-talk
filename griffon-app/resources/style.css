@@ -1,0 +1,12 @@
+.title {
+  font-family: SansSerif;
+  font-size: 42;
+}
+.desc {
+  font-family: SansSerif;
+  font-size: 32;
+}
+.code {
+  font-family: Monospaced;
+  font-size: 30;
+}
