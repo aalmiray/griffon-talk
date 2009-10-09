@@ -10,7 +10,7 @@ class InitController {
       app.appFrames[0].visible = false
       def graphicsEnvironment = GraphicsEnvironment.localGraphicsEnvironment
       def device = graphicsEnvironment.screenDevices.find{it.fullScreenSupported}
-      // device?.setFullScreenWindow(app.appFrames[1])
+      device?.setFullScreenWindow(app.appFrames[1])
       CSSDecorator.decorate("style", app.appFrames[1])
       app.appFrames[1].visible = true
    }

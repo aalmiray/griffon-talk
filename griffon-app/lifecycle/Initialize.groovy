@@ -21,34 +21,5 @@ import groovy.swing.SwingBuilder
 import griffon.util.GriffonPlatformHelper
 
 GriffonPlatformHelper.tweakForNativePlatform(app)
-//SwingBuilder.lookAndFeel('mac', 'nimbus', 'gtk', ['metal', [boldFonts: false]])
-//SwingBuilder.lookAndFeel('org.jvnet.substance.skin.SubstanceChallengerDeepLookAndFeel', 'mac', 'nimbus', 'gtk', ['metal', [boldFonts: false]])
-
-/*
-     SubstanceAutumnLookAndFeel
-     SubstanceBusinessBlackSteelLookAndFeel
-     SubstanceBusinessBlueSteelLookAndFeel
-     SubstanceBusinessLookAndFeel
-     SubstanceChallengerDeepLookAndFeel
-     SubstanceCremeCoffeeLookAndFeel
-     SubstanceCremeLookAndFeel
-     SubstanceDustCoffeeLookAndFeel
-     SubstanceDustLookAndFeel
-     SubstanceEmeraldDuskLookAndFeel
-     SubstanceMagmaLookAndFeel
-     SubstanceMistAquaLookAndFeel
-     SubstanceMistSilverLookAndFeel
-     SubstanceModerateLookAndFeel
-     SubstanceNebulaBrickWallLookAndFeel
-     SubstanceNebulaLookAndFeel
-     SubstanceOfficeBlue2007LookAndFeel
-     SubstanceOfficeSilver2007LookAndFeel
-     SubstanceRavenGraphiteGlassLookAndFeel
-     SubstanceRavenGraphiteLookAndFeel
-     SubstanceRavenLookAndFeel
-     SubstanceSaharaLookAndFeel
-     SubstanceTwilightLookAndFeel
-*/
-//SwingBuilder.lookAndFeel('org.jvnet.substance.skin.SubstanceChallengerDeepLookAndFeel', 'mac', 'nimbus', 'gtk', ['metal', [boldFonts: false]])
-SwingBuilder.lookAndFeel('org.jvnet.substance.skin.SubstanceOfficeBlue2007LookAndFeel', 'mac', 'nimbus', 'gtk', ['metal', [boldFonts: false]])
-
+SwingBuilder.lookAndFeel('org.jvnet.substance.skin.SubstanceChallengerDeepLookAndFeel', 'mac', 'nimbus', 'gtk', ['metal', [boldFonts: false]])
+//SwingBuilder.lookAndFeel('org.jvnet.substance.skin.SubstanceOfficeBlue2007LookAndFeel', 'mac', 'nimbus', 'gtk', ['metal', [boldFonts: false]])
