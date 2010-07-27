@@ -1,9 +1,9 @@
 class DeckController {
    def close = { evt = null ->
-      app.appFrames.last().dispose()
+      app.windowManager.windows.last().dispose()
       destroyMVCGroup("deck")
-      app.appFrames.pop()
-      app.appFrames.first().visible = true
+      app.windowManager.windows.pop()
+      app.windowManager.windows.first().visible = true
    }
 
    def runScript = { script ->
